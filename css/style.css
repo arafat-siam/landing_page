@@ -6,7 +6,10 @@
   --font-color: #13043e;
   --font-white: white;
 }
-
+html {
+  scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -158,9 +161,9 @@ body {
 /* Blog Section Start */
 
 .blog_section {
-  margin: 50px 0px;
+  margin: 0px 0px 0px 50px;
   display: block;
-  padding: 20px 0px;
+  padding: 70px 0px;
   overflow: hidden;
 }
 .blog_title {
@@ -202,6 +205,7 @@ body {
 
 .blog_text_title {
   font-size: 21px;
+  text-transform: capitalize;
 }
 .blog_text_desc {
   font-weight: 400;
