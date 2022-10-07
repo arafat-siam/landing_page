@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --primary-color: #3574e8;
+  --secondary-color: #57d69e;
+  --font-color: #13043e;
+  --font-white: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Common CSS code */
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title {
+  font-size: 50px;
+  color: var(--font-color);
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.section {
+  overflow: hidden;
+  width: 100%;
+  margin: 50px 0px;
+  padding: 50px 0px;
+}
+.btn {
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: var(--secondary-color);
+  transition: 0.3s;
+}
+
+/* Header Design start */
+
+.head {
+  width: 100%;
+  background: #f2f4f6;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px #0000004d;
+  position: sticky;
+  top: 0;
+}
+
+/* Logo start */
+
+.logo_box {
+  width: 20%;
+  float: left;
+}
+
+.logo_box a img {
+  width: 45%;
+}
+
+/* Logo End */
+
+/* Nav menu start */
+.menu {
+  float: left;
+  width: 60%;
+  text-align: center;
+  line-height: 4rem;
+}
+
+.menu ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--font-color);
+  font-size: 22px;
+}
+
+.menu ul li a:hover {
+  color: var(--primary-color);
+  transform: 0.3s;
+}
+
+/* Nav menu end */
+
+/* Contact us btn design start */
+.header_right {
+  float: right;
+  line-height: 6rem;
+}
+
+.header_right_btn {
+  padding: 20px 40px;
+  border: none;
+  background-color: var(--primary-color);
+  border-radius: 7px;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--font-white);
+  cursor: pointer;
+}
+/* Contact us btn design end */
+
+/* About Section Start */
+
+.about_section {
+  overflow: hidden;
+  height: 70vh;
+  padding-top: 65px;
+}
+
+.about_image_box {
+  width: 50%;
+  float: left;
+  text-align: right;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+.about_text_box {
+  width: 50%;
+  float: left;
+  padding: 20px 30px 20px 30px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.about_text_title {
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--font-color);
+  margin: 0;
+  padding-top: 80px;
+}
+
+.about_text_desc {
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+/* About Section End */
+
+/* Blog Section Start */
+
+.blog_section {
+  margin: 50px 0px;
+  display: block;
+  padding: 20px 0px;
+  overflow: hidden;
+}
+.blog_title {
+  font-size: 50px;
+  color: var(--font-color);
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.blog_first_3 {
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px 0px;
+}
+.blog_last_3 {
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px 0px;
+}
+.blog_col {
+  width: 30%;
+  border-radius: 5px;
+  float: left;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 15px 20px 30px;
+  box-shadow: 0px 0px 20px #00000026;
+  margin: 0px 10px;
+}
+.blog_col img {
+  width: 100%;
+  height: 250px;
+  display: block;
+  margin: auto;
+}
+
+.blog_text_title {
+  font-size: 21px;
+}
+.blog_text_desc {
+  font-weight: 400;
+  text-align: justify;
+}
+
+.read_more {
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+/* Blog Section End */
+
+/* Gallery Section Start */
+
+.gallery_title {
+  margin-bottom: 60px;
+}
+.gallery_image {
+  width: 25%;
+  box-sizing: border-box;
+  float: left;
+  height: 200px;
+  padding: 0px 5px;
+  border-radius: 0px 100px;
+}
+
+.gallery_image:hover {
+  scale: 1.5;
+  transition: 0.3s;
+  cursor: pointer;
+}
+/* Gallery Section End */
+
+/* Footer Section start */
+
+.footer {
+  text-align: center;
+  color: white;
+  background-color: var(--font-color);
+  margin: 0px;
+  padding: 15px 0px;
+}
+
+.copyrightText {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+/* Footer Section End */
